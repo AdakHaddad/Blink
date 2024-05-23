@@ -1,0 +1,22 @@
+{
+  "name": "MuqtadaPijarBlink",
+  "version": "1.0.0",
+  "description": "LED blinking library with configurable intervals for simpler method",
+  "keywords": "led, blink, interval",
+  "authors": [
+    {
+      "name": "Pijarwidyanara Andhita Hermawan",
+      "email": "pijarwidyanaraandhitahermawan@mail.ugm.ac.id"
+    },
+    {
+      "name": "Muhammad Muqtada Al Haddad",
+      "email": "muhammadmuqtadaalhaddad@mail.ugm.ac.id"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdakHaddad/MuqtadaPijarBlink"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}
