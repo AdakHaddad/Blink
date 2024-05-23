@@ -1,6 +1,6 @@
 {
   "name": "MuqtadaPijarBlink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LED blinking library with configurable intervals for simpler method",
   "keywords": "led, blink, interval",
   "authors": [
