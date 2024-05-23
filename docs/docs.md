@@ -14,17 +14,20 @@ MuqtadaPijarBlink is a simple library for controlling LED blinking with configur
 
 Include the library in your sketch and use the `blink` function.
 
-// Melakukan blink dengan interval default (500ms on, 500ms off)
+```cpp
+
+//Default (500ms on, 500ms off)
 blink(LED_PIN);
 
-    // Melakukan blink dengan interval 200ms nyala dan 300ms mati
+    // interval 200ms on dan 300ms off
     blink(LED_PIN, 200, 300);
 
-    // Blink dengan interval yang sama untuk nyala dan mati (500ms)
+    // on/off every 500ms
     blink(LED_PIN, 500);
 
-    // Blink cepat (100ms nyala, 100ms mati)
+    // Fast (t00ms on, 100ms off)
     blink(LED_PIN, "fast");
 
-    // Blink lambat (1000ms nyala, 1000ms mati)
+    // Slow (1000ms on, 1000ms off)
     blink(LED_PIN, "slow");
+```
